@@ -1,0 +1,9 @@
+.searchResults{
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    color: black;
+    z-index: 100;
+}

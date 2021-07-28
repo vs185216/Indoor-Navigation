@@ -1,0 +1,12 @@
+Flask==1.1.2
+Flask_MySQLdb==0.2.0
+pydantic==1.8.2
+opencv_python==4.5.1.48
+matplotlib==3.4.2
+networkx==2.5.1
+uvicorn==0.13.3
+numpy==1.20.2
+fastapi==0.67.0
+mysql_connector_repackaged==0.3.1
+Pillow==8.3.1
+PyYAML==5.4.1

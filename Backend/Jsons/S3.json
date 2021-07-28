@@ -1,0 +1,44 @@
+{
+    "storeNodes": [
+        {
+            "storeName": "node1",
+            "x": 5,
+            "y": 2
+        },
+        {
+            "storeName": "node2",
+            "x": 10,
+            "y": 2
+        },
+        {
+            "storeName": "node3",
+            "x": 16,
+            "y": 4
+        },
+        {
+            "storeName": "node4",
+            "x": 16,
+            "y": 11
+        },
+        {
+            "storeName": "node5",
+            "x": 9,
+            "y": 13
+        },
+        {
+            "storeName": "node6",
+            "x": 7,
+            "y": 8
+        },
+        {
+            "storeName": "node7",
+            "x": 12,
+            "y": 8
+        },
+        {
+            "storeName": "node8",
+            "x": 3,
+            "y": 8
+        }
+    ]
+}

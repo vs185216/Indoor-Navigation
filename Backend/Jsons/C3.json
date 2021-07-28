@@ -1,0 +1,24 @@
+{
+    "storeNodes": [
+        {
+            "storeName": "c1",
+            "x": 5,
+            "y": 8
+        },
+        {
+            "storeName": "c2",
+            "x": 10,
+            "y": 11
+        },
+        {
+            "storeName": "c3",
+            "x": 14,
+            "y": 8
+        },
+        {
+            "storeName": "c4",
+            "x": 10,
+            "y": 5
+        }
+    ]
+}

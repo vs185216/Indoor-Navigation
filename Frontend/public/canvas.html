@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <canvas id="myCanvas" width="1500" height="1000" style="border:1px solid #d3d3d3;"></canvas>
+        <script async>
+                document.addEventListener('DOMContentLoaded',function(){
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.moveTo(0,0);
+                console.log("Vivek");
+                var coOrdinates = [[200,200],[400,450],[500,200]];
+                for(let [x,y] of coOrdinates){
+                    console.log(x,y);
+                    ctx.lineTo(x,y);
+                    ctx.stroke();
+                }
+                // ctx.lineTo(200,200);
+                // ctx.stroke();
+            })            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+/* .Canvas-outerWrapper{
+    margin: 20px auto;
+    width: 1000px;
+    height: 700px;
+    border: 1px solid blue;
+} */
+.Canvas-wrapper{
+    /* width: 100%;
+    height: 100%;
+    position: relative; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Canvas-Image{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.Canvas-canvas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("https://wcs.smartdraw.com/planogram/img/store-layout-example.png?bn=15100111799");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: rgba(255,0,0,0.1);
+}
